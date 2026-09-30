@@ -1,0 +1,9 @@
+{
+  "name": "工擎云护 · 工程机械保养派单",
+  "short_name": "工擎云护",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f1f5f9",
+  "theme_color": "#0f172a",
+  "icons": [{ "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
