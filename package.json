@@ -1,0 +1,19 @@
+{
+  "name": "fleetcare-dispatch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "工程机械保养派单系统：工况回传、周期保养自动派单、技师外勤离线填报、客户确认",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "install:all": "npm install",
+    "dev": "node scripts/dev.mjs",
+    "dev:server": "npm run dev -w server",
+    "dev:client": "npm run dev -w client",
+    "build": "npm run build -w client",
+    "start": "npm run start -w server",
+    "seed": "npm run seed -w server"
+  }
+}
